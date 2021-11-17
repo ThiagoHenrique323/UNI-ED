@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-	Aluno: Thiago Henrique Bueno de Oliceira;
+	Aluno: Thiago Henrique Bueno de Oliveira;
 	
 	Matricula: 2011956;
 */
