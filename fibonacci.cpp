@@ -6,6 +6,17 @@
 	Matricula: 2011956;
 */
 
+int fi(int n);
+
+
+main(){
+	int n;
+	printf("Digite um numero: ");
+	scanf("%i", &n);
+	
+	printf("O valor  de %i sequencia de Fibonacci  %i ", n, fi(n));
+	
+}
 
 
 int fi(int n){
@@ -16,13 +27,4 @@ int fi(int n){
 	}else{
 		return fi(n-1) + fi(n-2);
 	}
-}
-
-main(){
-	int n;
-	printf("Digite um numero: ");
-	scanf("%i", &n);
-	
-	printf("O valor  de %i sequencia de Fibonacci  %i ", n, fi(n));
-	
 }
